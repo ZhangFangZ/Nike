@@ -1,0 +1,288 @@
+*{font-size:16px;}
+
+/* 主体开始 */
+.main_top{
+    width:100%;
+    position:fixed;
+    top:0px;
+    z-index:90; 
+    background:#fff;
+}
+.mtop_box{
+    width:1808px;
+    margin:0 auto;
+    padding-top:26px;
+    padding-bottom:34px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding-left:8px;
+    padding-right:8px;
+}
+.mtop_h{
+    font-size:24px;
+    font-weight:500;
+    padding:0 20px;
+    margin-right:100px;
+}
+.mtop_fa{
+    margin-top:12px;
+    width:auto;
+    text-align:center;
+}
+.mtop_fa>li{
+    float:left;
+}
+.mtop_son{
+    margin-right:16px;
+}
+.mtop_son>a{
+    color:#111;
+    font-size:16px !important;
+    font-weight:500;
+    display:block;
+}
+.mtop_son>a:hover{
+    color:#dedede;
+}
+.mtop_son2{
+    margin-right:16px;
+    margin-left:16px;
+}
+.mtop_son2>a{
+    color:#111;
+    font-size:16px !important;
+    font-weight:500;
+    display:block;
+}
+.mtop_son2>a:hover{
+    color:#dedede;
+}
+.mtop_son3{
+    margin-left:16px;
+}
+.mtop_son3>a{
+    color:#111;
+    font-size:16px !important;
+    font-weight:500;
+    display:block;
+}
+.mtop_son3>a:hover{
+    color:#dedede;
+}
+.mtop_hi{
+    display:block;
+    overflow:hidden;
+    margin-left:100px;
+    height:0;
+    margin-right:0;
+   
+    width:175px;
+}
+.main_ban{
+    width:1792px;
+    height:700px;
+    background:#fcc;
+    margin:0 auto;
+   margin-top:93px;
+}
+.ban_text{
+    width:1344px;
+    position:absolute;
+    left: 94px;
+    bottom:180px;
+    height:233px;
+}
+.btext_one{
+    margin-bottom:8px;
+    color:#fff;
+    font-weight:600;
+    font-size:72px;
+}
+.btext_two{
+    color:#fff;
+    font-size:20px;
+}
+.btext_btn{
+    margin-top:18px;
+    width:120px;
+    height:40px;
+    border-radius:20px;
+    line-height:40px;
+    text-align:center;
+    color:#000;
+    background:#fff;
+    font-size:16px;
+    cursor:pointer;
+}
+.btext_btn:hover{
+    background:#dedede;
+}
+
+
+/* 媒介查询 */
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width:767px) {
+    .mtop_box{
+        width:100%;
+        padding-left:0;
+        padding-right:0;
+    }
+    .mtop_fa{
+        padding:0 20px;
+    }
+    .main_ban{
+        width:413px;
+        height:668px;
+    }
+    .ban_text{
+        width:349px;
+        height:144px;
+        left:36px;
+        bottom:-30px;
+        background:#fff;
+    }
+    .btext_one{
+        font-size:48px;
+        color:#111;
+    }
+    .btext_two{
+        font-size:16px;
+        color:#111;
+    }
+    .btext_btn{
+        background:#111;
+        color:#fff;
+    }
+    .btext_btn:hover{
+        background:#c9c9c9;
+    }
+}
+
+
+@media screen and (min-width:320px) {
+    .main_ban{
+        width:310px;
+        height:668px;
+    }
+}
+
+@media screen and (min-width:360px) {
+    .main_ban{
+        width:320px;
+        height:668px;
+    }
+    .ban_text{
+        width:278px;
+        height:144px;
+        left:36px;
+        bottom: -260px;
+    }
+    .btext_one{
+        font-size:36px;
+    }
+    .btext_two{
+        font-size:14px;
+    }
+}
+
+@media screen and (min-width:375px) {
+    .ban_text{
+        bottom:-140px;
+    }
+}
+
+@media screen and (min-width:411px) {
+    .ban_text{
+        bottom:-188px;
+    }
+}
+
+@media screen and (min-width:414px) {
+    .main_ban{
+        width:374px;
+        height:668px;
+    }
+    .ban_text{
+        bottom:-190px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .main_ban{
+        width:413px;
+        height:668px;
+    }
+    .ban_text{
+        bottom:-60px;
+    }
+}
+
+@media screen and (min-width:540px) {
+    
+}
+
+@media screen and (min-width:640px) {
+    
+}
+
+@media screen and (min-width:720px) {
+   
+}
+
+@media screen and (min-width:768px) {
+    .main_ban{
+        width:744px;
+        height:668px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    
+}
+
+@media screen and (min-width:1200px) {
+    .main_ban{
+        width:1792px;
+        height:700px;
+        background:#fcc;
+        margin:0 auto;
+       margin-top:93px;
+    }
+    .ban_text{
+        width:1344px;
+        position:absolute;
+        left: 94px;
+        bottom:120px;
+        height:233px;
+    }
+    .btext_one{
+        margin-bottom:8px;
+        color:#fff;
+        font-weight:600;
+        font-size:72px;
+    }
+    .btext_two{
+        color:#fff;
+        font-size:20px;
+    }
+    .btext_btn{
+        margin-top:18px;
+        width:120px;
+        height:40px;
+        border-radius:20px;
+        line-height:40px;
+        text-align:center;
+        color:#000;
+        background:#fff;
+        font-size:16px;
+        cursor:pointer;
+    }
+    .btext_btn:hover{
+        background:#dedede;
+    }
+}

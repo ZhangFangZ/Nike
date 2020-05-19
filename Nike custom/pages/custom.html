@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/reset2.0.css" type="text/css" rel="stylesheet">
+    <link href="../css/custom.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <!-- 头部开始 -->
+
+
+
+    <!-- 主体开始 -->
+    <div class="main_top">
+        <div class="mtop_box">
+            <h1 class=mtop_h>Nike By You</h1>
+            <ul class="mtop_fa">
+                <li class="mtop_son"><a href="#">最新</a></li>
+                <li class="mtop_son2"><a href="#">男子</a></li>
+                <li class="mtop_son2"><a href="#">女子</a></li>
+                <li class="mtop_son3"><a href="#">儿童</a></li>
+            </ul>
+            <h1 class="mtop_hi">Nike By You</h1>
+        </div>
+    </div>
+
+
+    <div class="main_ban">
+        <div class="ban_text">
+            <p class="btext_one">KD13 BY YOU</p>
+            <p class="btext_two">迷彩混搭，破局立新意。</p>
+            <div class="btext_btn">立即定制</div>
+        </div>
+    </div>
+</body>
+<script src="../js/html5shiv.min.js" type="text/javascript"></script>
+<script src="../js/jquery-3.4.1.js" type="text/javascript"></script>
+<script src="../js/custom.js" type="text/javascript"></script>
+
+<script>
+    //改变font-size
+    (function(doc,win){
+        var docEI = doc.documentElement,
+        resizeEvt = 'orientationchange' in window?'orientataionchange':'resize',
+        recalc = function(){
+            var clientWidth = docEI.clientWidth;
+            if(!clientWidth) return;
+            docEI.style.fontSize = 100*(clientWidth/1908)+'px';
+        }
+    
+        if(!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document,window);
+</script>
+</html>
