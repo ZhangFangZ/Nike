@@ -121,6 +121,134 @@
 }
 
 
+/* 主体中开始 */
+.main_center{
+    margin-top:84px;
+    width:1808px;
+    height:764px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.mcenter_top{
+    width:100%;
+    height:40px;
+    margin-bottom:24px;
+    line-height:40px;
+    font-size:24px;
+    font-weight:500;
+    padding-left:8px;
+}
+.cont_wid{
+    width:1808px;
+}
+.mcenter_xm{
+    margin-left:8px;
+    margin-right:8px;
+    height:700px;
+    background:#cfc;
+    width:888px;
+}
+.mcenter_xm2{
+    margin-left:8px;
+    margin-right:8px;
+    height:700px;
+    background:#dedede;
+    width:888px;
+}
+.mcenter_posi{
+    width:666px;
+    height:88px;
+    position:absolute;
+    bottom:36px;
+    left:36px;
+}
+.mcenter_p{
+    height:24px;
+    width:100%;
+    line-height:24px;
+    color:#111;
+    font-size:18px;
+    font-weight:500;
+    margin-bottom:4px;
+}
+.mcenter_btn{
+    width:120px;
+    height:40px;
+    margin-top:24px;
+    margin-right:6px;
+    border-radius:20px;
+    background:#111;
+    line-height:40px;
+    text-align:center;
+    color:#fff;
+    cursor:pointer;
+}
+.mcenter_btn:hover{
+    background:#999;
+}
+.mlast_top{
+    margin-bottom:24px;
+    color:#111;
+    font-size:24px;
+    font-weight:500;
+    height:40px;
+    line-height:40px;
+    margin-top:84px;
+    width:200px;
+    padding-left:50px;
+}
+.mcenter_last{
+    width:1808px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#8d3ab2;
+    height:700px;
+}
+.mlast_bot{
+    width:1075px;
+    height:172px;
+    margin:36px auto 0 auto;
+}
+.mlast_one{
+    color:#111;
+    width:100%;
+    height:72px;
+    line-height:72px;
+    text-align:center;
+    font-size:72px;
+    font-weight:500;
+    margin-bottom:8px;
+    cursor:pointer;
+}
+.mlast_two{
+    color:#111;
+    width:100%;
+    height:24px;
+    line-height:24px;
+    text-align:center;
+    cursor:pointer;
+    font-weight:400;
+    font-size:20px;
+}
+.mlast_btn{
+    margin-top:24px;
+    width:120px;
+    height:40px;
+    border-radius:20px;
+    background:#111;
+    color:#fff;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    line-height:40px;
+    cursor:pointer; 
+}
+.mlast_btn:hover{
+    background:#999;
+}
+
+
+
 /* 媒介查询 */
 @media (max-width: 1024px) {
 
@@ -160,6 +288,28 @@
     }
     .btext_btn:hover{
         background:#c9c9c9;
+    }
+    .main_center{
+        width:100%;
+        height:1072px;
+        margin-top:220px;
+        padding-left:28px;
+    }
+    .cont_wid{
+        width:100%;
+        height:1072px;
+    }
+    .mcenter_xm{
+        width:397px;
+        height:500px;
+    }
+    .mcenter_xm2{
+        width:397px;
+        height:500px;
+        margin-top:20px;
+    }
+    .mcenter_posi{
+        width:100%;
     }
 }
 
